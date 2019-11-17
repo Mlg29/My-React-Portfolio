@@ -1,0 +1,40 @@
+.navigation {
+    position: fixed;
+    height: 100vh;
+    background: #eee;
+    z-index: 105;
+    margin-left: -3%;
+}
+
+.navigation .navigation-link {
+    width: 70px;
+    background:#eee;
+    color: red;
+    list-style: none;
+    padding: 5%;
+    margin-bottom: 55%;
+    
+}
+
+@media screen and (max-width: 780px) {
+    .navigation {
+        width: 64px;
+        margin-left: -5%;
+        height: 120vh;
+    }
+    .navigation .navigation-link {
+        width: 0px;
+        background:#eee;
+        color: red;
+        list-style: none;
+        padding: 5%;
+        margin-top: 100%;
+        margin-bottom: 155%;
+        margin-left: -100%;
+        
+    }
+    .nav-image {
+        width: 30px;
+        
+    }
+}

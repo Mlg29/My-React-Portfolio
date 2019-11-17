@@ -1,0 +1,36 @@
+.about {
+    background-color: #161733;
+    height: 100vh;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    
+}
+.about-header {
+    margin: 5% 0 3% 20%;
+}
+.about-paragraph1 {
+    margin-left: 40%;
+    
+}
+.about-paragraph {
+    margin-left: 20%;
+    margin-bottom: 3%;
+}
+.skills {
+    margin-left: 12%;
+}
+hr {
+    background: white;
+}
+@media screen and (max-width: 780px) {
+    .about {
+        background-image: linear-gradient(#161733, rgba(18, 19, 34, .8), rgba(2, 3, 14, .37)), url("https://benjaminajewole.com/static/media/bg.f56b311c.jpg");
+        height: 120vh;
+        width: 35rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}

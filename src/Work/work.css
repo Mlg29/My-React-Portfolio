@@ -1,0 +1,55 @@
+.work {
+    background: #161733;
+    height: 100vh;
+}
+
+.work-header {
+    color: white;
+    margin: 3%;
+}
+.works-image {
+    position: relative;
+    animation: mymove 2s;
+    animation-timing-function: ease ease-in;
+    
+}
+
+.works-image:hover {
+    opacity: 0.1;
+}
+.works-image1:hover {
+    opacity: 0.1;
+}
+.work-image-text {
+    color: white;
+    font-size: 30px;
+    position: absolute;
+    bottom: 80%;
+}
+.work-image-paragraph {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    bottom: 20%;
+}
+.work-image-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.works-image1 {
+    position: relative;
+    animation: mymove1 2s;
+    animation-timing-function: ease ease-in;
+}
+
+@keyframes mymove {
+    from {left: -200px;}
+    to {left: 200px;}
+}
+@keyframes mymove1 {
+    from {right: -200px;}
+    to {right: 200px;}
+}
