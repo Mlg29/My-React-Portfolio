@@ -13,7 +13,7 @@
     width: 500px;
     height: 70vh;
     margin-top: 20%;
-    margin-left: 20%;
+    margin-left: 10%;
 }
 .contact-text {
     display: flex;
@@ -75,7 +75,7 @@
         justify-content: center;
         align-items: center;
         background: white;
-        width: 300px;
+        width: 280px;
         /* height: 70vh; */
         margin-top: 20%;
         margin-left: 20%;
@@ -84,20 +84,20 @@
         border-radius: 10px;
         padding: 0.5rem;
         border: none;
-        width: 50%;
+        width: 70%;
         background: rgba(107, 99, 255, 0.24);
         margin: 2%;
     }
     .contact-textarea {
         border-radius: 10px;
         padding: 1.5rem;
-        width: 50%;
+        width: 70%;
         border: none;
         background: rgba(107, 99, 255, 0.24);
         margin: 5%; 
     }
     .contact-button {
-        width: 50%;
+        width: 70%;
         height: 45px;
         text-transform: uppercase;
         text-align: center;

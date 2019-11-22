@@ -2,8 +2,14 @@ import React from "react"
 import "./contact.css"
 import Navigation from "../Navigation"
 
-function Contact() {
-    return (
+class Contact extends React.Component {
+    constructor() {
+        super()
+    }
+
+
+    render() {
+        return (
         <div className="contact">
             <Navigation />
             <div className="container" id="contact">
@@ -23,7 +29,9 @@ function Contact() {
                 </div>
             </div>
         </div>
-    )
+     )
+    }
+    
 }
 
 export default Contact
