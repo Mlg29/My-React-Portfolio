@@ -20,56 +20,42 @@
 .works-image1:hover {
     opacity: 0.1;
 }
-.work-image-text {
-    color: white;
-    font-size: 30px;
-    opacity: 0;
-    position: absolute;
-    bottom: 80%;
-}
-.work-image-text:hover {
-    color: white;
-    font-size: 30px;
-    opacity: 0.9;
-    position: absolute;
-    bottom: 80%;
-}
-.work-image-paragraph {
-    color: white;
-    font-size: 20px;
-    opacity: 0;
-    position: absolute;
-    bottom: 20%;
-}
-.work-image-body {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-}
 .works-image1 {
     position: relative;
     animation: mymove1 2s;
-    animation-timing-function: ease ease-in;
+    animation-timing-function: ease ease-out;
 }
 
 @keyframes mymove {
-    from {left: -200px;}
-    to {left: 200px;}
-}
-@keyframes mymove1 {
-    from {right: -200px;}
+    from {left: 200px;}
     to {right: 200px;}
 }
-
+@keyframes mymove1 {
+    from {right: 200px;}
+    to {left: 200px;}
+}
+.about-button {
+    margin-top: 3%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.button {
+    width: 200px;
+    padding: 8px;
+    border-radius: 10px;
+    border: none;
+    background-color: aqua;
+    color: grey;
+}
 @media screen and (max-width: 520px) {
+    
     .works-image {
-        width: 250px;
+        width: 80%;
         margin-left: 15%;
     }
     .works-image1 {
-        width: 250px;
+        width: 80%;
         margin-top: 5%;
         margin-left: 15%;
     }
@@ -79,5 +65,21 @@
     .work {
         background: #161733;
         height: 180vh;
+    }
+    .about-button {
+        margin-top: 5%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin-left: 10%;
+    }
+    .button {
+        width: 200px;
+        padding: 8px;
+        border-radius: 10px;
+        border: none;
+        background-color: aqua;
+        color: grey;
     }
 }

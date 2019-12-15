@@ -12,8 +12,10 @@
 }
 .home-text {
     color: white;
-    text-align: center;
+    text-align: left;
+    line-height: 50px;
 }
+
 .home-section {
     display: flex;
     flex-direction: column;

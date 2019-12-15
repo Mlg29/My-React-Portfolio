@@ -8,13 +8,13 @@ function About() {
             <Navigation />
             <div className="container-fluid" id="about">
                 <div className="row">
-                    <div className="col-lg-12">
+                    <div className="col-lg-12 about-page">
                         <div className="about">
                             <h1 className="about-header">About Me</h1>
                             <p className="about-paragraph">A Frontend Developer with a demostrated history of bringing wireframe designs to life. Taking into consideration the responsiveness<br /> as well as ensuring a user friendly web app  </p>
 
                             <div className="container">
-                                <div className="row">
+                                <div className="row about-container">
                                     <div className="col-6">
                                         <p className="about-paragraph1"><img src="https://img.icons8.com/offices/25/000000/user.png" /> <b>Name:</b> Lawal Mukhtar</p>
                                         <p className="about-paragraph1"><img src="https://img.icons8.com/offices/25/000000/user.png" /> <b>Nickname:</b> MLG</p>
@@ -32,7 +32,7 @@ function About() {
 
                                 <h1 className="skills">SKILLS</h1>
                                 <div className="container">
-                                    <div className="row">
+                                    <div className="row about-container">
                                         <div className="col-6">
                                             <p className="about-paragraph"><img src="https://img.icons8.com/color/25/000000/html-5.png" /> <b>HTML</b></p>
                                             <p className="about-paragraph"><img src="https://img.icons8.com/color/25/000000/css3.png" /> <b>CSS</b></p>

@@ -1,3 +1,6 @@
+.about-page {
+    background-color: #161733;
+}
 .about {
     background-color: #161733;
     height: 100vh;
@@ -24,13 +27,28 @@ hr {
     background: white;
 }
 @media screen and (max-width: 780px) {
-    .about {
-        background-image: linear-gradient(#161733, rgba(18, 19, 34, .8), rgba(2, 3, 14, .37)), url("https://benjaminajewole.com/static/media/bg.f56b311c.jpg");
-        height: 120vh;
-        width: 35rem;
+    .about-page {
+        height: 180vh;
+        width: 100%;
+    }
+    .about {    
+        width: 100%;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
+    }
+    .about-header {
+        margin-top: 35rem;
+        margin-bottom: 10%;
+    }
+    .about-paragraph {
+        margin-left: 20%;
+    }
+    .about-container {
+        display: flex;
+        flex-direction: column;
+        /* justify-content: center;
+        align-items: center; */
     }
 }
