@@ -9,9 +9,9 @@
 }
 .works-image {
     position: relative;
-    animation: mymove 2s;
-    animation-timing-function: ease ease-in;
-    
+    animation: mymove 1s;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
 }
 
 .works-image:hover {
@@ -22,17 +22,18 @@
 }
 .works-image1 {
     position: relative;
-    animation: mymove1 2s;
-    animation-timing-function: ease ease-out;
+    animation: mymove1 1s;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
 }
 
 @keyframes mymove {
-    from {left: 200px;}
-    to {right: 200px;}
+    0% {left: -500px;}
+    100% {left: -10px;}
 }
 @keyframes mymove1 {
-    from {right: 200px;}
-    to {left: 200px;}
+    0% {right: -200px;}
+    100% {right: -10px;}
 }
 .about-button {
     margin-top: 3%;
@@ -52,7 +53,7 @@
     
     .works-image {
         width: 80%;
-        margin-left: 15%;
+        margin-left: 25%;
     }
     .works-image1 {
         width: 80%;

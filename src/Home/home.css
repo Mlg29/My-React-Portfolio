@@ -12,16 +12,36 @@
 }
 .home-text {
     color: white;
+    position: relative;
     text-align: left;
     line-height: 50px;
+    opacity: 0;
+    animation: myText;
+    animation-duration: 1s;
+    animation-delay: 2s;
+    animation-timing-function: linear;
+    position: relative;
+    animation-fill-mode: forwards;
 }
-
+@keyframes myText {
+    0% {right: -2%}
+    100% { right: 0%; opacity: 1;}
+}
 .home-section {
     display: flex;
     flex-direction: column;
 }
 .home-image {
-    margin-left: 10%;
+    animation: myImage;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    position: relative;
+    animation-fill-mode: forwards;
+}
+
+@keyframes myImage {
+    0% {margin-left: -40%;}
+    100% {margin-left: 10%; }
 }
 
 @media screen and (max-width: 780px) {
