@@ -97,7 +97,7 @@ function Home() {
                         </div>
 
                         <div className="floating-card card-apps">
-                            <span className="card-emoji">📱</span>
+                            <span className="card-emoji" role="img" aria-label="Mobile phone">📱</span>
                             <div>
                                 <p className="card-label">Apps Shipped</p>
                                 <p className="card-value">5+ Live Apps</p>
@@ -105,7 +105,7 @@ function Home() {
                         </div>
 
                         <div className="floating-card card-stores">
-                            <span className="card-emoji">🚀</span>
+                            <span className="card-emoji" role="img" aria-label="Rocket">🚀</span>
                             <div>
                                 <p className="card-label">Platforms</p>
                                 <p className="card-value">iOS &amp; Android</p>

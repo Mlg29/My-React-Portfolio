@@ -71,7 +71,7 @@ function Contact() {
 
                             <div className="contact-links">
                                 <a href="mailto:lmukhtar29@gmail.com" className="contact-link-item">
-                                    <div className="link-icon">✉️</div>
+                                    <div className="link-icon"><span role="img" aria-label="Email">✉️</span></div>
                                     <div className="link-details">
                                         <p className="link-label">Email</p>
                                         <p className="link-value">lmukhtar29@gmail.com</p>
@@ -84,7 +84,7 @@ function Contact() {
                                     rel="noopener noreferrer"
                                     className="contact-link-item"
                                 >
-                                    <div className="link-icon">💼</div>
+                                    <div className="link-icon"><span role="img" aria-label="Briefcase">💼</span></div>
                                     <div className="link-details">
                                         <p className="link-label">LinkedIn</p>
                                         <p className="link-value">lawal-mukhtar</p>
@@ -97,7 +97,7 @@ function Contact() {
                                     rel="noopener noreferrer"
                                     className="contact-link-item"
                                 >
-                                    <div className="link-icon">🐙</div>
+                                    <div className="link-icon"><span role="img" aria-label="Octopus">🐙</span></div>
                                     <div className="link-details">
                                         <p className="link-label">GitHub</p>
                                         <p className="link-value">Mlg29</p>
@@ -105,7 +105,7 @@ function Contact() {
                                 </a>
 
                                 <div className="contact-link-item no-hover">
-                                    <div className="link-icon">📍</div>
+                                    <div className="link-icon"><span role="img" aria-label="Location pin">📍</span></div>
                                     <div className="link-details">
                                         <p className="link-label">Location</p>
                                         <p className="link-value">Lagos, Nigeria</p>
@@ -118,7 +118,7 @@ function Contact() {
                         <div className="contact-form-wrapper">
                             {status === "success" ? (
                                 <div className="success-state">
-                                    <span className="success-icon">🎉</span>
+                                    <span className="success-icon" role="img" aria-label="Party popper">🎉</span>
                                     <h3>Message Sent!</h3>
                                     <p>Thanks for reaching out. I'll get back to you as soon as possible.</p>
                                     <button className="btn-reset" onClick={handleReset}>

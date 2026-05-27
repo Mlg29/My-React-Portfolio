@@ -14,7 +14,7 @@ function NotFound() {
             padding: "2rem",
             fontFamily: "'Poppins', sans-serif",
         }}>
-            <p style={{ fontSize: "6rem", lineHeight: 1, marginBottom: "1rem" }}>📱</p>
+            <p style={{ fontSize: "6rem", lineHeight: 1, marginBottom: "1rem" }}><span role="img" aria-label="Mobile phone">📱</span></p>
             <h1 style={{
                 fontFamily: "'Space Grotesk', sans-serif",
                 fontSize: "5rem",
